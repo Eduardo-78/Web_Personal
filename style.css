@@ -1,0 +1,181 @@
+*
+{
+
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+
+}
+
+
+body
+{
+  
+  background: url(./assets/Canada/11.jpg) no-repeat;
+  background-size: cover;
+
+}
+
+.header
+{
+  padding: 40px;
+  width: 100%;
+
+}
+
+nav > ul > li 
+{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 10px;
+  background-color: transparent;
+  transition: all ease-in-out 250ms;
+
+}
+
+ul li a
+{
+  color: white;
+  font-size: 20px;
+}
+
+.nav >ul >li> a
+{
+   text-align: center;
+}
+.cabecera
+{
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+    margin: auto;
+    padding: 1px;
+    font-size: 30px; 
+
+}
+
+.mensaje
+{
+ 
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 30px;
+  color: white;
+  text-align: center;
+  
+}
+
+#parrafo
+{
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+}
+
+#picture
+{
+    width: 300px;
+    margin-left: 350;
+    border-radius: 30%;
+    align-items: center;
+}
+
+#redes
+{
+    height: 700;
+    width: 100;
+    text-align: justify;    
+    margin: auto;
+}
+
+#redes ul
+{
+  list-style-type: none;
+
+}
+
+#redes li
+{
+  float: left;
+  margin-right: 50px;
+  padding: 2px;
+  border: #d7d7d7 4px solid;
+  background-color: rgb(79, 153, 73);
+  
+}
+
+#redes ul li a
+{
+  display: inline-block;
+  color: white;
+  font-size: 25px;  
+}
+
+#redes ul li img
+{
+  width: 30px;
+  height: 30px;
+  color: blue;
+
+
+}
+
+.biografia
+{
+    text-align: justify;
+    font-weight: bold;
+}
+
+.contenedor
+{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    
+}
+
+#foto
+{
+  width: 350px;
+  height: 350px;
+  margin: 20px 20px;
+}
+
+table
+{
+  margin-top: 100px;
+}
+
+#pais
+{
+    background-color: rgb(64, 112, 74);
+    font-style: normal;
+    font-size: 30px;
+    align-items: end ;
+
+}
+
+.contactos
+{
+  font-style: normal;  
+}
+.contactos h2
+{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.contactos p
+{
+  font-size: 25px;
+  font-style: normal;
+  color: white;
+}
+
+.contactos #genero
+{
+    color: white;
+    font-size: 20px;
+    width: 350px;
+  
+}
